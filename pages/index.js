@@ -1,6 +1,5 @@
 import fs from "fs/promises"
 import path from "path"
-import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
@@ -12,8 +11,8 @@ export default function Home(props) {
     <>
     <div className={styles.main}>
         {products.map(item => (
-          <Link href={`/${item.id}`} >
-          <p key={item.id}>{item.title} - {item.price}</p>
+          <Link href={`/${item.id}`} key={item.id} >
+          <p >{item.title} - {item.price}</p>
           
           </Link>
         ))}      
