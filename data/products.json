@@ -1,0 +1,7 @@
+{
+      "products" : [
+            {"id" : "p1" , "title" : "iphone 14" , "price" : "2000"},
+            {"id" : "p2" , "title" : "iphone 12" , "price" : "3000"},
+            {"id" : "p3" , "title" : "iphone 11" , "price" : "4000"}
+      ]
+}
